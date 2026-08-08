@@ -1,0 +1,2340 @@
+{
+    "ANA": {
+        "name": "ANA",
+        "icao": "ANA",
+        "color": "#0B318F",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Boeing B737-800",
+            "Boeing B767-300",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "RJTT",
+            "RJAA"
+        ],
+        "lounges": [
+            "HND/RJTT",
+            "HNL/PHNL",
+            "KIX/RJBB",
+            "NRT/RJAA"
+        ]
+    },
+    "Aegean Airlines": {
+        "name": "Aegean Airlines",
+        "icao": "AEE",
+        "color": "#94AACB",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200"
+        ],
+        "hubs": [
+            "LGTS",
+            "LGAV"
+        ],
+        "lounges": [
+            "GTS/LGTS",
+            "LCLK/LCA",
+            "LGAV/ATH"
+        ]
+    },
+    "Aer Lingus": {
+        "name": "Aer Lingus",
+        "icao": "EIN",
+        "color": "#008374",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A320neo",
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-300"
+        ],
+        "hubs": [
+            "EIDW"
+        ],
+        "lounges": [
+            "GLL/EGLL - Terminal 2",
+            "IDW/EIDW - Terminal 2",
+            "JFK/KJFK - Terminal 7"
+        ]
+    },
+    "Aerolíneas Argentinas": {
+        "name": "Aeroli\u0301neas Argentinas",
+        "icao": "ARG",
+        "color": "#0484CC",
+        "fleet": [
+            "Airbus A330-200",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Embraer E-190"
+        ],
+        "hubs": [
+            "SABE",
+            "SAEZ"
+        ],
+        "lounges": [
+            "ABE/SABE",
+            "AEZ/SAEZ"
+        ]
+    },
+    "Aeroméxico": {
+        "name": "Aerom\u00e9xico",
+        "icao": "AMX",
+        "color": "#040444",
+        "fleet": [
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B737 Max-9",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "MMMX"
+        ],
+        "lounges": [
+            "MMX/MMMX"
+        ]
+    },
+    "Air Canada": {
+        "name": "Air Canada",
+        "icao": "ACA",
+        "color": "#D82F2E",
+        "fleet": [
+            "Airbus A220-300",
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321-200",
+            "Airbus A330-300",
+            "Boeing B737 Max-8",
+            "Boeing B767-300",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "CYUL",
+            "CYYZ",
+            "CYVR"
+        ],
+        "lounges": [
+            "CDG/LFPG",
+            "EDDF/FRA",
+            "EWR/KEWR",
+            "LAX/KLAX",
+            "LGA/KLGA",
+            "LHR/EGLL",
+            "SFO/KSFO",
+            "YEG/CYEG",
+            "YHZ/CYHZ",
+            "YQR/CYQR",
+            "YTZ/CYTZ",
+            "YUL/CYUL",
+            "YVR/CYVR",
+            "YWG/CYWG",
+            "YXE/CYXE",
+            "YYC/CYYC",
+            "YYT/CYYT",
+            "YYZ/CYYZ"
+        ]
+    },
+    "Air China": {
+        "name": "Air China",
+        "icao": "CCA",
+        "color": "#ED1C24",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B747-400",
+            "Boeing B747-800",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "Comac C919"
+        ],
+        "hubs": [
+            "ZBAA",
+            "ZBAD",
+            "ZUUU",
+            "ZUTF"
+        ],
+        "lounges": [
+            "CAN/ZGGG",
+            "CKG/ZUCK",
+            "DLC/ZYTL",
+            "HET/ZBHH",
+            "HGH/ZSHC",
+            "KWE/ZUGY",
+            "PEK/ZBAA",
+            "PVG/ZSPD",
+            "TFU/ZUTF",
+            "TSN/ZBTJ",
+            "WNZ/ZSWZ"
+        ]
+    },
+    "Air Europa": {
+        "name": "Air Europa",
+        "icao": "AEA",
+        "color": "#0474CC",
+        "fleet": [
+            "Boeing B737-800",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "GCXO",
+            "LEPA"
+        ],
+        "lounges": []
+    },
+    "Air France": {
+        "name": "Air France",
+        "icao": "AFR",
+        "color": "#F71D25",
+        "fleet": [
+            "Airbus A220-300",
+            "Airbus A318",
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321-100",
+            "Airbus A321-200",
+            "Airbus A350-900",
+            "Boeing B737-800",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "LFPG"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "BOD/LFBD",
+            "BOS/KBOS",
+            "CAY/SOCA",
+            "DDM/EDDM",
+            "DLA/FKKD",
+            "EDF/EDDF",
+            "FDF/TFFF",
+            "FPG/LFPG - La Première",
+            "FPG/LFPG - Terminal 2E, Hall K",
+            "FPG/LFPG - Terminal 2E, Hall L",
+            "FPG/LFPG - Terminal 2E, Hall M",
+            "FPG/LFPG - Terminal 2F",
+            "FPG/LFPG - Terminal 2G",
+            "GVA/LSGG",
+            "IAD/KIAD",
+            "IAH/KIAH",
+            "JFK/KJFK",
+            "LAX/KLAX",
+            "LOS/DNMM",
+            "ORY/LEPO - 2",
+            "ORY/LEPO - 3",
+            "PTP/TFFR",
+            "RUN/FMEE",
+            "SFO/KSFO",
+            "YUL/CYUL"
+        ]
+    },
+    "Air India": {
+        "name": "Air India",
+        "icao": "AIC",
+        "color": "#FE9901",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A350-900",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "VIDP"
+        ],
+        "lounges": [
+            "DEL/VIDP",
+            "JFK/KJFK"
+        ]
+    },
+    "Air New Zealand": {
+        "name": "Air New Zealand",
+        "icao": "ANZ",
+        "color": "#231f20",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "ATR 72",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "De Havilland Dash 8-300"
+        ],
+        "hubs": [
+            "NZAA",
+            "NZCH",
+            "NZWN"
+        ],
+        "lounges": [
+            "AKL/NZAA",
+            "BNE/YBBN",
+            "CHC/NZCH",
+            "DUD/NZDN",
+            "HLZ/NZHN",
+            "IVC/NZNV",
+            "MEL/YMML",
+            "NAN/NFFN",
+            "NPE/NZNR",
+            "NPL/NZNP",
+            "NSN/NZNS",
+            "PER/YPPH",
+            "PMR/NZPM",
+            "RAR/NCRG",
+            "SYD/YSSY",
+            "TRG/NZTG",
+            "WLG/NZWN",
+            "ZQN/NZQN"
+        ]
+    },
+    "Air Wisconsin": {
+        "name": "Air Wisconsin",
+        "icao": "AWI",
+        "color": "#EA7F4A",
+        "fleet": [
+            "Bombardier CRJ-200"
+        ],
+        "hubs": [
+            "KORD",
+            "KIAD"
+        ],
+        "lounges": []
+    },
+    "Alaska Airlines": {
+        "name": "Alaska Airlines",
+        "icao": "ASA",
+        "color": "#0074c8",
+        "fleet": [
+            "Boeing B737 Max-9",
+            "Boeing B737-900",
+            "Boeing B737 Max-8",
+            "Boeing B737-800",
+            "Boeing B737-700",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "PANC",
+            "KLAX",
+            "KSAN",
+            "KSEA",
+            "KSFO",
+            "KPDX"
+        ],
+        "lounges": [
+            "ANC/PANC - Concourse C",
+            "JFK/KJFK - Terminal 7",
+            "LAX/KLAX - Terminal 6",
+            "PDX/KPDX - Concourse B",
+            "PDX/KPDX - Concourse C",
+            "SEA/KSEA - Concourse C",
+            "SEA/KSEA - Concourse D",
+            "SEA/KSEA - Concourse N",
+            "SFO/KSFO - Terminal 1"
+        ]
+    },
+    "Allegiant Air": {
+        "name": "Allegiant Air",
+        "icao": "AAY",
+        "color": "#FF9801",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Boeing B737 Max-8"
+        ],
+        "hubs": [
+            "KLAS",
+            "KCVG",
+            "KVPS",
+            "KIND",
+            "KSFB",
+            "KPIT",
+            "KBLI",
+            "KDSM",
+            "KPGD",
+            "KGRR",
+            "KATW"
+        ],
+        "lounges": []
+    },
+    "American Airlines": {
+        "name": "American Airlines",
+        "icao": "AAS",
+        "color": "#36495a",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Bombardier CRJ-200",
+            "Bombardier CRJ-700",
+            "Bombardier CRJ-900",
+            "Embraer ERJ-145",
+            "Embraer E-170",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KCLT",
+            "KORD",
+            "KDFW",
+            "KLAX",
+            "KMIA",
+            "KJFK",
+            "KLGA",
+            "KPHL",
+            "KPHX",
+            "KDCA"
+        ],
+        "lounges": [
+            "ATL/KATL",
+            "AUS/KAUS",
+            "BNA/KBNA",
+            "BOS/KBOS",
+            "CLT/KCLT - Concourse B",
+            "CLT/KCLT - Concourse C",
+            "DCA/KDCA - Terminal 2, Concourse C",
+            "DCA/KDCA - Terminal 2, Concourse D",
+            "DCA/KDCA - Terminal 2, Concourse E",
+            "DEN/KDEN",
+            "DFW/KDFW - Terminal A",
+            "DFW/KDFW - Terminal B",
+            "DFW/KDFW - Terminal C",
+            "DFW/KDFW - Terminal D",
+            "DFW/KDFW - Terminal E",
+            "EWR/KEWR",
+            "HNL/PHNL",
+            "IAH/KIAH",
+            "JFK/KJFK - Chelsea Lounge",
+            "JFK/KJFK - Greenwich Lounge",
+            "JFK/KJFK - Soho Lounge",
+            "LAX/KLAX - American Eagle Regional Terminal",
+            "LAX/KLAX - T4",
+            "LAX/KLAX - T5",
+            "LHR/EGLL",
+            "MCO/KMCO",
+            "MIA/KMIA - Concourse D (above D15)",
+            "MIA/KMIA - Concourse D (across from D30)",
+            "ORD/KORD - Terminal 3, Concourse G",
+            "ORD/KORD - Terminal 3, Concourse H",
+            "ORD/KORD - Terminal 3, Concourse L",
+            "ORD/KORD",
+            "PHL/KPHL - Terminal A",
+            "PHL/KPHL - Terminal B & C",
+            "PHL/KPHL - Terminal F",
+            "PHX/KPHX - Concourse A (above A7)",
+            "PHX/KPHX - Concourse A (between gates A19 & A21)",
+            "PHX/KPHX - Concourse B",
+            "PIT/KPIT",
+            "RDU/KRDU",
+            "SFO/KSFO",
+            "SNA/KSNA",
+            "STL/KSTL",
+            "TPA/KTPA"
+        ]
+    },
+    "Asiana Airlines": {
+        "name": "Asiana Airlines",
+        "icao": "AAR",
+        "color": "#E51820",
+        "fleet": [
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Airbus A380",
+            "Boeing B747-400",
+            "Boeing B767-300",
+            "Boeing B777-200"
+        ],
+        "hubs": [
+            "RKSS",
+            "RKSI"
+        ],
+        "lounges": [
+            "ICN/RKSI"
+        ]
+    },
+    "Austrian Airlines": {
+        "name": "Austrian Airlines",
+        "icao": "AUA",
+        "color": "#D7211B",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321-100",
+            "Airbus A321-200",
+            "ATR 72",
+            "Boeing B767-300",
+            "Boeing B777-200",
+            "Boeing B787-9",
+            "Embraer E-195"
+        ],
+        "hubs": [
+            "LOWW"
+        ],
+        "lounges": [
+            "VIW/LOWW - Bussiness Lounge",
+            "VIW/LOWW - Senator Lounge"
+        ]
+    },
+    "Avelo Air": {
+        "name": "Avelo Air",
+        "icao": "VXP",
+        "color": "#4C14A3",
+        "fleet": [
+            "Boeing B737-700",
+            "Boeing B737-800"
+        ],
+        "hubs": [
+            "KBUR",
+            "KHVN",
+            "KMCO",
+            "KBDL",
+            "KLAL",
+            "KRDU",
+            "KSTS",
+            "KILG"
+        ],
+        "lounges": []
+    },
+    "Avianca": {
+        "name": "Avianca",
+        "icao": "AVA",
+        "color": "#FF0000",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Boeing B787-8"
+        ],
+        "hubs": [
+            "SKBO"
+        ],
+        "lounges": [
+            "BAQ/SKBQ",
+            "BGA/SKBG",
+            "BOG/SKBO - Domestic Lounge",
+            "BOG/SKBO - International Lounge",
+            "CLO/SKCL",
+            "CTG/SKCG",
+            "MDE/SKRG",
+            "SAL/MSLP"
+        ]
+    },
+    "Azul Brazilian Airlines": {
+        "name": "Azul Brazilian Airlines",
+        "icao": "AZU",
+        "color": "#70C6C6",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A321-200",
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-900",
+            "ATR 72",
+            "Boeing B737-400",
+            "Embraer 195"
+        ],
+        "hubs": [
+            "SBCF",
+            "SBKP",
+            "SBRF"
+        ],
+        "lounges": [
+            "FLL/KFLL - Escape Lounge",
+            "LIS/LPPT - Lounge ANA",
+            "MCO/KMCO - Plaza Premium Lounge",
+            "VCP/SBKP - Lounge Azul"
+        ]
+    },
+    "Breeze Airways": {
+        "name": "Breeze Airways",
+        "icao": "MXY",
+        "color": "#3D93EF",
+        "fleet": [
+            "Airbus A220-300",
+            "Embraer E-190",
+            "Embraer E-195"
+        ],
+        "hubs": [
+            "KCHS",
+            "KBDL",
+            "KMSY",
+            "KORF",
+            "KPVD",
+            "KPVU",
+            "KTPA"
+        ],
+        "lounges": []
+    },
+    "British Airways": {
+        "name": "British Airways",
+        "icao": "BAW",
+        "color": "#0035AD",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A350-1000",
+            "Airbus A380",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-10",
+            "Boeing B787-9",
+            "Boeing B787-8"
+        ],
+        "hubs": [
+            "EGKK",
+            "EGLL"
+        ],
+        "lounges": [
+            "BOS/KBOS",
+            "DFW/KDFW",
+            "DXB/OMDB",
+            "EZE/SAEZ",
+            "GIG/SBGL",
+            "GRU/SBGR",
+            "HKG/VHHH",
+            "IAD/KIAD",
+            "JFK/KJFK",
+            "JNB/FAOR",
+            "LAX/KLAX",
+            "LGA/KLGA",
+            "LGW/EGKK",
+            "LHR/EGLL - Arrivals Lounge",
+            "LHR/EGLL - Concorde Room",
+            "LHR/EGLL - Galleries North Club Lounge",
+            "LHR/EGLL - Galleries South First and Galleries Club Lounge",
+            "LHR/EGLL - Galleries T5B Club Lounge",
+            "LHR/EGLL - T3 Galleries First and Galleries Club Lounge",
+            "LHR/EGLL - T3 Galleries First and Galleries Club Lounge",
+            "LIM/SPJC",
+            "MEX/MMMX",
+            "MIA/KMIA",
+            "NBO/HKJK",
+            "ORD/KORD",
+            "PTY/MPTO",
+            "SAL/MSSS",
+            "SCL/SCEL",
+            "SFO/KSFO",
+            "SIN/WSSS",
+            "YVR/CYVR",
+            "YYZ/CYYZ"
+        ]
+    },
+    "Brussels Airlines": {
+        "name": "Brussels Airlines",
+        "icao": "BEL",
+        "color": "#EE452A",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-300"
+        ],
+        "hubs": [
+            "EBBR"
+        ],
+        "lounges": [
+            "BRU/EBBR",
+            "FIH/FZAA"
+        ]
+    },
+    "Cape Air": {
+        "name": "Cape Air",
+        "icao": "KAP",
+        "color": "#96FCFD",
+        "fleet": [
+            "Britten-Norman Islander",
+            "Cessna 402",
+            "Tecnam P2012 Traveller"
+        ],
+        "hubs": [
+            "KHYA",
+            "KBIL",
+            "KBOS",
+            "KACK",
+            "KSTL",
+            "TJSJ",
+            "KALB",
+            "KMVY"
+        ],
+        "lounges": []
+    },
+    "Cathay Pacific": {
+        "name": "Cathay Pacific",
+        "icao": "CPA",
+        "color": "#00645A",
+        "fleet": [
+            "Airbus A321neo",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Airbus A350-1000",
+            "Boeing B747-400",
+            "Boeing B747-800",
+            "Boeing B747-800",
+            "Boeing B777-300"
+        ],
+        "hubs": [
+            "VHHH"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "BOM/VABB",
+            "CDG/LFPG",
+            "CGK/WIII",
+            "DOH/OTHH",
+            "DXB/OMDB",
+            "HKG/VHHH",
+            "ICN/RKSI",
+            "JFK/KJFK",
+            "JNB/FAOR",
+            "KIX/RJBB",
+            "KUL/WMKK",
+            "LHR/EGLL",
+            "MEL/YMML",
+            "MNL/RPLL",
+            "NRT/RJAA",
+            "PEK/ZBAA",
+            "PVG/ZSPD",
+            "SFO/KSFO",
+            "SGN/VVTS",
+            "SIN/WSSS",
+            "SYD/YSSY",
+            "TPE/RCTP",
+            "YVR/CYVR",
+            "YYZ/CYYZ"
+          ]
+    },
+    "China Airlines": {
+        "name": "China Airlines",
+        "icao": "CAL",
+        "color": "#E9AFB8",
+        "fleet": [
+            "Airbus A321neo",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B737-800",
+            "Boeing B747-400",
+            "Boeing B777-300"
+        ],
+        "hubs": [
+            "RCTP"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "KHH/RCKH",
+            "KUL/WMKK",
+            "NRT/RJAA",
+            "SFO/KSFO",
+            "TPE/RCTP - Terminal 1",
+            "TPE/RCTP - Terminal 2"
+          ]
+    },
+    "China Eastern Airlines": {
+        "name": "China Eastern Airlines",
+        "icao": "CES",
+        "color": "#D70819",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "Comac C919"
+        ],
+        "hubs": [
+            "ZBAD",
+            "ZPPP",
+            "ZSSS",
+            "ZSPD",
+            "ZLXY"
+        ],
+        "lounges": [
+            "NKG/ZSNJ",
+            "PVG/ZSPD-T1",
+            "PVG/ZSPD-T2",
+            "PVG/ZSPD-T2-Satellite",
+            "TAO/ZSQD"
+        ]
+    },
+    "Commute Air": {
+        "name": "Commute Air",
+        "icao": "UCA",
+        "color": "#F7D055",
+        "fleet": [
+            "Embraer ERJ-145",
+            "Embraer E-170"
+        ],
+        "hubs": [
+            "KDEN",
+            "KEWR",
+            "KIAD"
+        ],
+        "lounges": []
+    },
+    "Condor": {
+        "name": "Condor",
+        "icao": "CFG",
+        "color": "#F8AC00",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-900",
+            "Boeing B757-300"
+        ],
+        "hubs": [
+            "EDDB",
+            "EDDF",
+            "EDDH",
+            "EDDL",
+            "EDDM",
+            "EDDP",
+            "EDDS",
+            "LSZH"
+        ],
+        "lounges": []
+    },
+    "Contour Airlines": {
+        "name": "Contour Airlines",
+        "icao": "VTE",
+        "color": "#275CB2",
+        "fleet": [
+            "Embraer ERJ-135",
+            "Embraer ERJ-140",
+            "Embraer ERJ-145",
+            "Bombardier CRJ-100",
+            "Bombardier CRJ-200"
+        ],
+        "hubs": [
+            "KMQY"
+        ],
+        "lounges": []
+    },
+    "Copa Airlines": {
+        "name": "Copa Airlines",
+        "icao": "CTN",
+        "color": "#0060A9",
+        "fleet": [
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B737 Max-9"
+        ],
+        "hubs": [
+            "MPTO"
+        ],
+        "lounges": [
+            "BOG/SKBO",
+            "GUA/MGGT",
+            "PTY/MPTO - Terminal 1",
+            "PTY/MPTO - Terminal 2",
+            "SDQ/MDSD",
+            "SJO/MROC"
+        ]
+    },
+    "Croatia Airlines": {
+        "name": "Croatia Airlines",
+        "icao": "BEL",
+        "color": "#C40414",
+        "fleet": [
+            "Airbus A220-300",
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "De Havilland Dash 8-400"
+        ],
+        "hubs": [
+            "LDZA"
+        ],
+        "lounges": []
+    },
+    "Delta Airlines": {
+        "name": "Delta Airlines",
+        "icao": "DAL",
+        "color": "#c8102e",
+        "fleet": [
+            "Airbus A350-900",
+            "Airbus A220-100",
+            "Airbus A220-300",
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321-200",
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Boeing B717",
+            "Boeing B737-800",
+            "Boeing B737-900",
+            "Boeing B757-200",
+            "Boeing B757-300",
+            "Boeing B767-300",
+            "Boeing B767-400",
+            "Bombardier CRJ-550",
+            "Bombardier CRJ-700",
+            "Bombardier CRJ-900",
+            "Embraer E-170",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KATL",
+            "KBOS",
+            "KJFK",
+            "KLAX",
+            "KLGA",
+            "KSLC",
+            "KDTW",
+            "KSEA",
+            "KMSP"
+        ],
+        "lounges": [
+            "ATL/KATL - Centurion Lounge",
+            "ATL/KATL - Delta Sky Club Concourse A A17",
+            "ATL/KATL - Delta Sky Club Concourse A Center",
+            "ATL/KATL - Delta Sky Club Concourse B",
+            "ATL/KATL - Delta Sky Club Concourse C",
+            "ATL/KATL - Delta Sky Club Concourse D D12",
+            "ATL/KATL - Delta Sky Club Concourse D D27",
+            "ATL/KATL - Delta Sky Club Concourse E",
+            "ATL/KATL - Delta Sky Club Concourse F",
+            "ATL/KATL - Delta Sky Club Concourse T",
+            "AUS/KAUS - Delta Sky Club",
+            "BNA/KBNA - Delta Sky Club",
+            "CLT/KCLT - Centurion Lounge",
+            "CVG/KCVG - Delta Sky Club",
+            "DCA/KDCA - Centurion Lounge",
+            "DCA/KDCA - Delta Sky Club",
+            "DEN/KDEN - Centurion Lounge",
+            "DEN/KDEN - Delta Sky Club",
+            "DFW/KDFW - Centurion Lounge",
+            "DFW/KDFW - Delta Sky Club",
+            "DTW/KDTW - Delta Sky Club A38",
+            "DTW/KDTW - Delta Sky Club C9",
+            "DTW/KDTW - Delta Sky Club Concourse A, A18",
+            "DTW/KDTW - Delta Sky Club Concourse A, A43",
+            "DTW/KDTW - Delta Sky Club Concourse A, A68",
+            "EWR/KEWR - Delta Sky Club",
+            "FLL/KFLL - Delta Sky Club",
+            "HND/RJTT - Delta Sky Club",
+            "HNL/PHNL - Delta Sky Club",
+            "IND/KIND - Delta Sky Club",
+            "JAX/KJAX - Delta Sky Club",
+            "JFK/KJFK - Centurion Lounge",
+            "JFK/KJFK - Delta Sky Club Concourse A",
+            "JFK/KJFK - Delta Sky Club Concourse B",
+            "LAS/KLAS - Centurion Lounge",
+            "LAX/KLAX - Centurion Lounge",
+            "LAX/KLAX - Delta Sky Club",
+            "LGA/KLGA - Centurion Lounge",
+            "LGA/KLGA - Delta Sky Club",
+            "MCI/KMCI - Delta Sky Club",
+            "MCO/KMCO - Delta Sky Club",
+            "MEM/KMEM - Delta Sky Club",
+            "MIA/KMIA - Delta Sky Club",
+            "MKE/KMKE - Delta Sky Club",
+            "MSP/KMSP - Delta Sky Club Concourse C",
+            "MSP/KMSP - Delta Sky Club Concourse F",
+            "MSP/KMSP - Delta Sky Club Concourse G",
+            "MSY/KMSY - Delta Sky Club",
+            "ORD/KORD - Delta Sky Club",
+            "PBI/KPBI - Delta Sky Club",
+            "PDX/KPDX - Delta Sky Club",
+            "PHL/KPHL - Centurion Lounge",
+            "PHL/KPHL - Delta Sky Club",
+            "PHX/KPHX - Centurion Lounge",
+            "PHX/KPHX - Delta Sky Club",
+            "RDU/KRDU - Delta Sky Club",
+            "SAN/KSAN - Delta Sky Club",
+            "SEA/KSEA - Centurion Lounge",
+            "SEA/KSEA - Delta Sky Club",
+            "SFO/KSFO - Centurion Lounge",
+            "SFO/KSFO - Delta Sky Club",
+            "SLC/KSLC - Delta Sky Club",
+            "TPA/KTPA - Delta Sky Club"
+        ]
+    },
+    "EVA Air": {
+        "name": "EVA Air",
+        "icao": "EVA",
+        "color": "#009A42",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A321-200",
+            "Airbus A330-300",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "RCTP"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "KHH/RCKH",
+            "TPE/RCTP"
+        ]
+    },
+    "Eastern Airlines": {
+        "name": "Eastern Airlines",
+        "icao": "EAL",
+        "color": "#8CB4C4",
+        "fleet": [
+            "Boeing B777-200",
+            "Boeing B767-300"
+        ],
+        "hubs": [
+            "KMIA"
+        ],
+        "lounges": []
+    },
+    "Egyptair": {
+        "name": "Egyptair",
+        "icao": "MSR",
+        "color": "#04245C",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Boeing B737-800",
+            "Boeing B777-300",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "HECA"
+        ],
+        "lounges": [
+            "CAI/HECA - Alioth",
+            "CAI/HECA - Almeisan",
+            "CAI/HECA - Elteir",
+            "CAI/HECA - Gienah"
+        ]
+    },
+    "Endeavor Air": {
+        "name": "Endeavor Air",
+        "icao": "VTE",
+        "color": "#C13232",
+        "fleet": [
+            "Bombardier CRJ-700",
+            "Bombardier CRJ-900"
+        ],
+        "hubs": [
+            "KATL",
+            "KCVG",
+            "KDTW",
+            "KJFK",
+            "KLGA",
+            "KMSP"
+        ],
+        "lounges": []
+    },
+    "Envoy Air": {
+        "name": "Envoy Air",
+        "icao": "ENY",
+        "color": "#220D64",
+        "fleet": [
+            "Embraer E-170",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KDFW",
+            "KORD",
+            "KPHX"
+        ],
+        "lounges": []
+    },
+    "Ethiopian Airlines": {
+        "name": "Ethiopian Airlines",
+        "icao": "ETH",
+        "color": "#548C44",
+        "fleet": [
+            "Airbus A350-1000",
+            "Airbus A350-900",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B767-300",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "De Havilland Dash 8-400"
+        ],
+        "hubs": [
+            "HAAB"
+        ],
+        "lounges": [
+            "ADD/HAAB - Cloud Nine Lounge",
+            "ADD/HAAB - ShebaMiles Lounge"
+        ]
+    },
+    "Emirates": {
+        "name": "Emirates",
+        "icao": "UAW",
+        "color": "#D71A21",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A350-900",
+            "Airbus A380",
+            "Boeing B757-400",
+            "Boeing B777-200",
+            "Boeing B777-300"
+        ],
+        "hubs": [
+            "OMDB"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "BNE/YBBN",
+            "BOS/KBOS",
+            "CAI/HECA",
+            "CDG/LFPG",
+            "CMB/VCBI",
+            "CPT/FACT",
+            "DUS/EDDL",
+            "DXB/OMDB - Business Class Lounge",
+            "DXB/OMDB - First Class Lounge",
+            "EJN/OEJN",
+            "FRA/EDDF",
+            "HAM/EDDH",
+            "JFK/KJFK",
+            "LAX/KLAX",
+            "LGW/EGKK",
+            "LHR/EGLL",
+            "MAN/EGCC",
+            "MEL/YMML",
+            "MUC/EDDM",
+            "MXP/LIMC",
+            "NRT/RJAA",
+            "PEK/ZBAA",
+            "PER/YPPH",
+            "PVG/ZSPD",
+            "SFO/KSFO",
+            "SIN/WSSS",
+            "SYD/YSSY",
+            "ZRH/LSZH"
+        ]
+    },
+    "Finnair": {
+        "name": "Finnair",
+        "icao": "FIN",
+        "color": "#ffffff",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321-200",
+            "Airbus A330-300",
+            "Airbus A350-900"
+        ],
+        "hubs": [
+            "EFHK"
+        ],
+        "lounges": [
+            "HEL/EFHK - Business Lounge (Non-Schengen)",
+            "HEL/EFHK - Business Lounge (Schengen)",
+            "HEL/EFHK - Platinum Wing"
+        ]
+    },
+    "Frontier Airlines": {
+        "name": "Frontier Airlines",
+        "icao": "FFT",
+        "color": "#248168",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200"
+        ],
+        "hubs": [
+            "KDEN",
+            "KATL",
+            "KORD",
+            "KCVG",
+            "KCLE",
+            "KLAS",
+            "KMIA",
+            "KMCO",
+            "KPHL",
+            "KRDU"
+        ],
+        "lounges": []
+    },
+    "Garuda Indonesia": {
+        "name": "Garuda Indonesia",
+        "icao": "GIA",
+        "color": "#04144C",
+        "fleet": [
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A330-900",
+            "Boeing B737-800",
+            "Boeing B777-300"
+        ],
+        "hubs": [
+            "WIII"
+        ],
+        "lounges": [
+            "CGK/WIII - Business Class Lounge",
+            "CGK/WIII - Executive Lounge",
+            "DPS/WADD - Business Class Lounge",
+            "DPS/WADD - International Lounge"
+        ]
+    },
+    "GoJet Airlines": {
+        "name": "GoJet Airlines",
+        "icao": "GJS",
+        "color": "#1E3CA6",
+        "fleet": [
+            "Bombardier CRJ-550"
+        ],
+        "hubs": [
+            "KORD",
+            "KDEN"
+        ],
+        "lounges": []
+    },
+    "Hawaiian Airlines": {
+        "name": "Hawaiian Airlines",
+        "icao": "HAL",
+        "color": "#D2058A",
+        "fleet": [
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A321neo",
+            "Boeing B717",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "PHNL",
+            "PHOG"
+        ],
+        "lounges": [
+            "AKL/NZAA - International Partner Lounges",
+            "CTS/RJCC - International Partner Lounges",
+            "FUK/RJFF - International Partner Lounges",
+            "HND/RJTT - International Partner Lounges",
+            "HNL/PHNL - Premier Club",
+            "HNL/PHNL - The Plumeria Lounge",
+            "ICN/RKSI - International Partner Lounges",
+            "ITO/PHTO - Premier Club",
+            "KIX/RJBB - International Partner Lounges",
+            "KOA/PHKO - Premier Club",
+            "LIH/PHLI - Premier Club",
+            "NRT/RJAA - International Partner Lounges",
+            "OGG/PHOG - Premier Club",
+            "SYD/YSSY - International Partner Lounges"
+        ]
+    },
+    "Horizon Air": {
+        "name": "Horizon Air",
+        "icao": "QXE",
+        "color": "#64AAC8",
+        "fleet": [
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KSEA",
+            "KPDX"
+        ],
+        "lounges": []
+    },
+    "ITA Airways": {
+        "name": "ITA Airways",
+        "icao": "ITY",
+        "color": "#046444",
+        "fleet": [
+            "Airbus A220-100",
+            "Airbus A220-300",
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-900",
+            "Airbus A350-900"
+        ],
+        "hubs": [
+            "LIRF"
+        ],
+        "lounges": [
+            "CGK/LIRF - Hangar Lounge",
+            "CGK/LIRF - Piazza di Spagna",
+            "CTA/LICC - Piazza Vincenzo Bellini",
+            "LIN/LIML - Piazza della Scala"
+        ]
+    },
+    "Iberia": {
+        "name": "Iberia",
+        "icao": "IBE",
+        "color": "#B11C25",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A350-900"
+        ],
+        "hubs": [
+            "LEMD"
+        ],
+        "lounges": [
+            "EZE/SAEZ - VIP Lounge",
+            "MAD/LEMD - Dalí",
+            "MAD/LEMD - Velázquez"
+        ]
+    },
+    "Icelandair": {
+        "name": "Icelandair",
+        "icao": "ICE",
+        "color": "#003A7B",
+        "fleet": [
+            "Airbus A321neo",
+            "Boeing B737 Max-8",
+            "Boeing B737 Max-9",
+            "Boeing B757-200",
+            "Boeing B757-300",
+            "Boeing B767-300",
+            "De Havilland Dash 8-200",
+            "De Havilland Dash 8-400"
+        ],
+        "hubs": [
+            "BIKF"
+        ],
+        "lounges": [
+            "KEF/BIKF - Saga Lounge"
+        ]
+    },
+    "Japan Airlines": {
+        "name": "Japan Airlines",
+        "icao": "JAL",
+        "color": "#C90000",
+        "fleet": [
+            "Airbus A350-900",
+            "Airbus A350-1000",
+            "Boieng B737-800",
+            "Boieng B767-300",
+            "Boieng B777-300",
+            "Boieng B787-8",
+            "Boieng B787-9"
+        ],
+        "hubs": [
+            "RJAA",
+            "RJTT"
+        ],
+        "lounges": [
+            "BKK/VTBS - Sakura Lounge",
+            "FRA/EDDF - Sakura Lounge",
+            "HND/RJTT - First Class Lounge",
+            "HND/RJTT - Sakura Lounge",
+            "HNL/PHNL - Sakura Lounge",
+            "KIX/RJBB - Sakura Lounge",
+            "MNL/RPLL - Sakura Lounge",
+            "NGO/RJGG - Sakura Lounge",
+            "NRT/RJAA - First Class Lounge",
+            "NRT/RJAA - Sakura Lounge"
+        ]
+    },
+    "JetBlue Airways": {
+        "name": "JetBlue Airways",
+        "icao": "JBU",
+        "color": "#003876",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A321-200",
+            "Airbus A321neo",
+            "Airbus A220-300",
+            "Embraer E-190"
+        ],
+        "hubs": [
+            "KMCO",
+            "KJFK",
+            "KFLL",
+            "KBOS"
+        ],
+        "lounges": []
+    },
+    "KLM": {
+        "name": "KLM",
+        "icao": "KLM",
+        "color": "#00A1E4",
+        "fleet": [
+            "Airbus A321neo",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737-900",
+            "Boeing B747-400",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "EHAM"
+        ],
+        "lounges": [
+            "AMS/EHAM - KLM Crown Lounges",
+            "IAH/KIAH - KLM Crown Lounges",
+            "YYZ/CYYZ - KLM Crown Lounges"
+        ]
+    },
+    "Kenya Airways": {
+        "name": "Kenya Airways",
+        "icao": "KQA",
+        "color": "#EC1C24",
+        "fleet": [
+            "Boeing B737-300",
+            "Boeing B737-800",
+            "Boeing B787-8",
+            "Embraer E-190"
+        ],
+        "hubs": [
+            "HKJK"
+        ],
+        "lounges": [
+            "NBO/HKJK - Asante Lounge",
+            "NBO/HKJK - Pride Lounge",
+            "NBO/HKJK - Simba Lounge"
+        ]
+    },
+    "Korean Air": {
+        "name": "Korean Air",
+        "icao": "KAL",
+        "color": "#24448C",
+        "fleet": [
+            "Airbus A220-300",
+            "Airbus A321neo",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Airbus A380",
+            "Boeing B737-800",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B747-400",
+            "Boeing B747-800",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "RKSS",
+            "RKSI"
+        ],
+        "lounges": [
+            "CJU/RKPC",
+            "FUK/RJFF",
+            "GMP/RKSS",
+            "HNL/PHNL",
+            "JFK/KJFK",
+            "KIX/RJBB",
+            "KSI/INC",
+            "NGO/RJGG",
+            "NRT/RJAA",
+            "PUS/RKPK"
+        ]
+    },
+    "LOT Polish Airlines": {
+        "name": "LOT Polish Airlines",
+        "icao": "LOT",
+        "color": "#1A3171",
+        "fleet": [
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Embraer E-170",
+            "Embraer E-175",
+            "Embraer E-190",
+            "Embraer E-195"
+        ],
+        "hubs": [
+            "EPWA"
+        ],
+        "lounges": [
+            "ORD/KORD - LOT Business Lounge Chicago O’Hare",
+            "WAW/EPWA - LOT Business Lounge Mazurek",
+            "WAW/EPWA - LOT Business Lounge Polonez"
+        ]
+    },
+    "Lufthansa": {
+        "name": "Lufthansa",
+        "icao": "DLH",
+        "color": "#f9ba00",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-100",
+            "Airbus A321-200",
+            "Airbus A340-300",
+            "Airbus A340-600",
+            "Airbus A350-900",
+            "Airbus A380",
+            "Boeing B747-400",
+            "Boeing B747-800",
+            "Boeing B787-9",
+            "Bombardier CRJ-1000"
+        ],
+        "hubs": [
+            "EDDF",
+            "EDDM"
+        ],
+        "lounges": [
+            "ATL/KATL - The Club",
+            "BOS/KBOS - Lufthansa Business Class Lounge",
+            "CDG/LFPG - Lufthansa Senator Lounge",
+            "CLT/KCLT - The Club",
+            "DEN/KDEN - United Club",
+            "DFW/KDFW - Capital One Lounge",
+            "DTW/KDTW - Lufthansa Business Class Lounge",
+            "DUS/EDDL - Lufthansa Business Lounge",
+            "DUS/EDDL - Lufthansa Senator Lounge",
+            "DXB/OMDB - Lufthansa Business Lounge",
+            "DXB/OMDB - Lufthansa Senator Lounge",
+            "EWR/KEWR - Lufthansa Business Class Lounge",
+            "EWR/KEWR - Lufthansa Senator Lounge",
+            "FRA/EDDF - Lufthansa Business Lounge A-West (Schengen)",
+            "FRA/EDDF - Lufthansa Business Lounge A13 (Schengen)",
+            "FRA/EDDF - Lufthansa Business Lounge B-OST (Non-Schengen)",
+            "FRA/EDDF - Lufthansa Business Lounge B-West (Non-Schengen)",
+            "FRA/EDDF - Lufthansa Business Lounge C (Non-Schengen)",
+            "FRA/EDDF - Lufthansa Business Lounge Z (Non-Schengen)",
+            "FRA/EDDF - Lufthansa Panorama Lounge (Schengen)",
+            "FRA/EDDF - Lufthansa Senator Lounge A (Schengen)",
+            "FRA/EDDF - Lufthansa Senator Lounge B (Non-Schengen)",
+            "FRA/EDDF - Lufthansa Senator Lounge B (Schengen)",
+            "FRA/EDDF - Lufthansa Senator Lounge Z (Schengen)",
+            "FRA/EDDF - Lufthansa Welcome Lounge",
+            "HAJ/EDDV - Lufthansa Senator Lounge",
+            "HAM/EDDH - Lufthansa Senator Lounge",
+            "IAD/KIAD - Lufthansa Business Class Lounge",
+            "JFK/KJFK - Lufthansa Business Class Lounge",
+            "JFK/KJFK - Lufthansa First Class Lounge",
+            "JFK/KJFK - Lufthansa Senator Lounge",
+            "LHR/EGLL - Lufthansa Business Lounge",
+            "LHR/EGLL - Lufthansa Senator Lounge",
+            "MUC/EDDM - Lufthansa Business Lounge G28 (Schengen)",
+            "MUC/EDDM - Lufthansa Business Lounge H24 (Non-Schengen)",
+            "MUC/EDDM - Lufthansa Business Lounge K11 (Satellite Schengen)",
+            "MUC/EDDM - Lufthansa Business Lounge L11 (Satellite Non-Schengen)",
+            "MUC/EDDM - Lufthansa Senator Lounge G24 (Schengen)",
+            "MUC/EDDM - Lufthansa Senator Lounge G28 (Schengen)",
+            "MUC/EDDM - Senator Cafe (Schengen)",
+            "MXP/LIMC - Lufthansa Lounge",
+            "ORD/KORD - United Club B18",
+            "ORD/KORD - United Club B6",
+            "SEA/KSEA - The Club",
+            "SFO/KSFO - United Club",
+            "SFO/KSFO - United Polaris Lounge"
+        ]
+    },
+    "Malaysia Airlines": {
+        "name": "Malaysia Airlines",
+        "icao": "MAS",
+        "color": "#002B5C",
+        "fleet": [
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A330-900",
+            "Airbus A350-900",
+            "Boeing B737-800",
+            "Boeing B737 Max-8"
+        ],
+        "hubs": [
+            "WMKK"
+        ],
+        "lounges": [
+            "KUL/WMKK - Domestic Golden Lounge KLIA",
+            "KUL/WMKK - International Golden Lounge at Satellite KLIA",
+            "KUL/WMKK - Regional Golden Lounge KLIA"
+        ]
+    },
+    "Mesa Airlines": {
+        "name": "Mesa Airlines",
+        "icao": "ASH",
+        "color": "#AAAAAA",
+        "fleet": [
+            "Bombardier CRJ-900",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KIAH",
+            "KIAD"
+        ],
+        "lounges": []
+    },
+    "Middle East Airlines": {
+        "name": "Middle East Airlines",
+        "icao": "MEA",
+        "color": "#047C5C",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A330-200"
+        ],
+        "hubs": [
+            "OLBA"
+        ],
+        "lounges": [
+            "BEY/OLBA - Cedar Lounge"
+        ]
+    },
+    "PSA Airlines": {
+        "name": "PSA Airlines",
+        "icao": "JIA",
+        "color": "#3264A0",
+        "fleet": [
+            "Bombardier CRJ-700",
+            "Bombardier CRJ-900"
+        ],
+        "hubs": [
+            "KCLT",
+            "KPHL",
+            "KDCA"
+        ],
+        "lounges": []
+    },
+    "Piedmont Airlines": {
+        "name": "Piedmont Airlines",
+        "icao": "PDT",
+        "color": "#BE4632",
+        "fleet": [
+            "Embraer ERJ-145"
+        ],
+        "hubs": [
+            "KCLT",
+            "KPHL",
+            "KDCA"
+        ],
+        "lounges": []
+    },
+    "Qantas": {
+        "name": "Qantas",
+        "icao": "QFA",
+        "color": "#DF0000",
+        "fleet": [
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "YBBN",
+            "YMML",
+            "YPPH",
+            "YSSY"
+        ],
+        "lounges": [
+            "ADL/YPAD - The Qantas Club",
+            "BME/YBRM - The Qantas Club",
+            "BNE/YBBN - Domestic Business",
+            "BNE/YBBN - International",
+            "BNE/YBBN - The Qantas Club",
+            "HNL/PHNL - International Business",
+            "LAX/KLAX - First",
+            "LAX/KLAX - International Business",
+            "MEL/YMML - Domestic Business",
+            "MEL/YMML - Firt",
+            "MEL/YMML - International Business",
+            "MEL/YMML - The Qantas Club",
+            "PER/YPPH - Domestic Business [T4]",
+            "PER/YPPH - International [T3]",
+            "PER/YPPH - The Qantas Club [T4]",
+            "SYD/YSSY - Domestic Business [T3]",
+            "SYD/YSSY - First [T1]",
+            "SYD/YSSY - International Business [T1]",
+            "SYD/YSSY - The Qantas Club [T3]"
+        ]
+    },
+    "Qatar Airways": {
+        "name": "Qatar Airways",
+        "icao": "QTR",
+        "color": "#5C0434",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Airbus A350-1000",
+            "Boeing B737 Max-8",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "OTHH"
+        ],
+        "lounges": [
+            "BEY/OLBA - Premium Lounge",
+            "BKK/VTBS - Premium Lounge",
+            "CDG/LFPG - Premium Lounge",
+            "DOH/OTHH - Al Mourjan Business Lounge",
+            "DOH/OTHH - Al Safwa First Lounge",
+            "LHR/EGLL - Premium Lounge",
+            "SIN/WSSS - Premium Lounge"
+        ]
+    },
+    "Ravn Alaska": {
+        "name": "Ravn Alaska",
+        "icao": "RVF",
+        "color": "#781916",
+        "fleet": [
+            "De Havilland Dash 8-100"
+        ],
+        "hubs": [
+            "PANC"
+        ],
+        "lounges": []
+    },
+    "Republic Airways": {
+        "name": "Republic Airways",
+        "icao": "RPA",
+        "color": "#BCBEC0",
+        "fleet": [
+            "Embraer E-170",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KIND",
+            "KCMH",
+            "KLGA",
+            "KMCI",
+            "KMIA",
+            "KPHL",
+            "KPIT",
+            "KDCA",
+            "KORD",
+            "KEWR"
+        ],
+        "lounges": []
+    },
+    "Royal Air Maroc": {
+        "name": "Royal Air Maroc",
+        "icao": "RAM",
+        "color": "#C40434",
+        "fleet": [
+            "Airbus A320-200",
+            "Boeing B737 Max-8",
+            "Boeing B767-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Embraer E-190"
+        ],
+        "hubs": [
+            "GMMN"
+        ],
+        "lounges": [
+            "CMN/GMMN - Royal Air Maroc Lounge",
+            "CMN/GMMN - VIP Lounge"
+        ]
+    },
+    "Royal Jordanian": {
+        "name": "Royal Jordanian",
+        "icao": "RJA",
+        "color": "#A8854A",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A321-200",
+            "Boeing B787-8",
+            "Embraer E-175",
+            "Embraer E-190",
+            "Embraer E-195"
+        ],
+        "hubs": [
+            "OJAI"
+        ],
+        "lounges": [
+            "AMM/OJAI - Royal Jordanian Crown Lounge",
+            "AMM/OJAI - Royal Jordanian Lounge"
+        ]
+    },
+    "SAS": {
+        "name": "SAS",
+        "icao": "SAS",
+        "color": "#2B0F73",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B737-700",
+            "Bombardier CRJ-900"
+        ],
+        "hubs": [
+            "EKCH",
+            "ENGM",
+            "ESSA"
+        ],
+        "lounges": [
+            "ARN/ESSA - SAS Gold Lounge",
+            "ARN/ESSA - SAS Lounge",
+            "CPH/EKCH - SAS Gold Lounge",
+            "CPH/EKCH - SAS Lounge",
+            "EWR/KEWR - SAS Lounge",
+            "GOT/ESGG - SAS Lounge",
+            "ORD/KORD - SAS Lounge",
+            "OSL/ENGM - SAS Domestic Lounge",
+            "OSL/ENGM - SAS Gold Lounge",
+            "OSL/ENGM - SAS Lounge"
+        ]
+    },
+    "Saudia": {
+        "name": "Saudia",
+        "icao": "SVA",
+        "color": "#046434",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Boeing B747-400",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "OERK",
+            "OEJN"
+        ],
+        "lounges": [
+            "DMM/OEDF - Saudia Lounge",
+            "MED/OEMA - Saudia Lounge",
+            "RUH/OERK - Saudia Lounge [T1]",
+            "RUH/OERK - Saudia Lounge [T2]"
+        ]
+    },
+    "Shenzhen Airlines": {
+        "name": "Shenzhen Airlines",
+        "icao": "CSZ",
+        "color": "#CC0327",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A330-300",
+            "Boeing B737-800",
+            "Boeing B737 Max-8"
+        ],
+        "hubs": [
+            "ZGSZ"
+        ],
+        "lounges": [
+            "CAN/ZGGG",
+            "PEK/ZBAA",
+            "PVG/ZSPD",
+            "SZX/ZGSZ"
+        ]
+    },
+    "Silver Airways": {
+        "name": "Silver Airways",
+        "icao": "SIL",
+        "color": "#D7328C",
+        "fleet": [
+            "ATR 42",
+            "ATR 72"
+        ],
+        "hubs": [
+            "KMCO",
+            "KFLL",
+            "KTPA"
+        ],
+        "lounges": []
+    },
+    "Singapore Airlines": {
+        "name": "Singapore Airlines",
+        "icao": "SIA",
+        "color": "#FCB130",
+        "fleet": [
+            "Airbus A350-900",
+            "Airbus A350-900URL",
+            "Airbus A380",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B747-400",
+            "Boeing B777-300",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "WSSS"
+        ],
+        "lounges": [
+            "BKK/VTBS - SilverKris Lounge",
+            "BNE/YBBN - SilverKris Lounge",
+            "HKG/VHHH - SilverKris Lounge",
+            "ICN/RKSI - SilverKris Lounge",
+            "LGW/EGKK - SilverKris Lounge",
+            "MEL/YMLL - SilverKris Lounge",
+            "MNL/RPLL - SilverKris Lounge",
+            "PER/YPPH - SilverKris Lounge",
+            "SIN/WSSS - KrisFlyer Gold Lounge",
+            "SIN/WSSS - SilverKris Lounge Terminal 2",
+            "SIN/WSSS - SilverKris Lounge Terminal 3",
+            "SIN/WSSS - SilverKris The Private Room",
+            "SYD/YSSY - SilverKris Lounge",
+            "TPE/RCTP - SilverKris Lounge"
+        ]
+    },
+    "SkyWest Airlines": {
+        "name": "SkyWest Airlines",
+        "icao": "SKW",
+        "color": "#00338d",
+        "fleet": [
+            "Bombardier CRJ-200",
+            "Bombardier CRJ-550",
+            "Bombardier CRJ-700",
+            "Bombardier CRJ-900",
+            "Embraer E-175"
+        ],
+        "hubs": [
+            "KATL",
+            "KDTW",
+            "KMSP",
+            "KSLC",
+            "KBOI",
+            "KCOS",
+            "KLAX",
+            "KSEA",
+            "KORD",
+            "KDEN",
+            "KSFO",
+            "KIAH",
+            "KDFW",
+            "KPHX",
+            "KPDX"
+        ],
+        "lounges": []
+    },
+    "South African Airways": {
+        "name": "South African Airways",
+        "icao": "SAA",
+        "color": "#143484",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A330-300",
+            "Airbus A340-300",
+            "Boeing B737-800"
+        ],
+        "hubs": [
+            "FAOR"
+        ],
+        "lounges": [
+            "CPT/FACT - SAA Baobab Premium Class Lounge",
+            "CPT/FACT - SAA Voyager Platinum Lounge",
+            "JBN/FAOR - Business Class Lounge",
+            "JBN/FAOR - Platinum Lounge"
+        ]
+    },
+    "Southwest Airlines": {
+        "name": "Southwest Airlines",
+        "icao": "SWA",
+        "color": "#FFBF27",
+        "fleet": [
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8"
+        ],
+        "hubs": [
+            "KATL",
+            "KBWI",
+            "KMDW",
+            "KDAL",
+            "KDEN",
+            "KHOU",
+            "KLAS",
+            "KLAX",
+            "KBNA",
+            "KOAK",
+            "KMCO",
+            "KPHX"
+        ],
+        "lounges": []
+    },
+    "Spirit Airlines": {
+        "name": "Spirit Airlines",
+        "icao": "NKS",
+        "color": "#FFEC00",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200"
+        ],
+        "hubs": [
+            "KFLL",
+            "KACY",
+            "KATL",
+            "KDTW",
+            "KLAS",
+            "KORD",
+            "KDFW",
+            "KBWI",
+            "KMCO",
+            "KIAH"
+        ],
+        "lounges": []
+    },
+    "SriLankan Airlines": {
+        "name": "SriLankan Airlines",
+        "icao": "RJA",
+        "color": "#DC001C",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A330-200",
+            "Airbus A330-300"
+        ],
+        "hubs": [
+            "VCBI"
+        ],
+        "lounges": [
+            "CMB/VCBI - Serendib Lounge"
+        ]
+    },
+    "Sun Country Airlines": {
+        "name": "Sun Country Airlines",
+        "icao": "SCX",
+        "color": "#F58232",
+        "fleet": [
+            "Boeing B737-800",
+            "Boeing B737-900"
+        ],
+        "hubs": [
+            "KMSP",
+            "KDFW",
+            "KLAS"
+        ],
+        "lounges": []
+    },
+    "Swiss International Air Lines": {
+        "name": "Swiss International Air Lines",
+        "icao": "SWR",
+        "color": "#E60005",
+        "fleet": [
+            "Airbus A220-100",
+            "Airbus A220-300",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-100",
+            "Airbus A321-200",
+            "Airbus A330-300",
+            "Airbus A340-300",
+            "Boeing B777-300"
+        ],
+        "hubs": [
+            "LSZH"
+        ],
+        "lounges": [
+            "GVA/LSGG - SWISS Business Lounge",
+            "ZRH/LSZH - SWISS Arrival Lounge",
+            "ZRH/LSZH - SWISS First Lounge A",
+            "ZRH/LSZH - SWISS First Lounge D",
+            "ZRH/LSZH - SWISS First Lounge E"
+        ]
+    },
+    "TAP Air Portugal": {
+        "name": "TAP Air Portugal",
+        "icao": "TAP",
+        "color": "#BBD33C",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320neo",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-200",
+            "Airbus A330-900"
+        ],
+        "hubs": [
+            "LPPT"
+        ],
+        "lounges": [
+            "LIS/LPPT - Atlântico Premium Lounge",
+            "LIS/LPPT - Tejo Premium Lounge"
+        ]
+    },
+    "TAROM": {
+        "name": "TAROM",
+        "icao": "ROT",
+        "color": "#041B5C",
+        "fleet": [
+            "Airbus A320-200",
+            "ATR 72",
+            "Boeing B737-700",
+            "Boeing B737-800"
+        ],
+        "hubs": [
+            "LROP"
+        ],
+        "lounges": [
+            "OTP/LROP - TAROM Business Lounge"
+        ]
+    },
+    "Thai Airways International": {
+        "name": "Thai Airways International",
+        "icao": "TAP",
+        "color": "#613177",
+        "fleet": [
+            "Airbus A320-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "VTBS"
+        ],
+        "lounges": [
+            "BKK/VTBS - Concourse C",
+            "BKK/VTBS - Concourse D",
+            "BKK/VTBS - Concourse E",
+            "TPE/RCTP - Terminal 1"
+        ]
+    },
+    "Turkish Airlines": {
+        "name": "Turkish Airlines",
+        "icao": "AWI",
+        "color": "#C70A0C",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A330-200",
+            "Airbus A330-300",
+            "Airbus A350-900",
+            "Boeing B737-800",
+            "Boeing B737-900",
+            "Boeing B737 Max-8",
+            "Boeing B737 Max-9",
+            "Boeing B777-300",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "LTFM"
+        ],
+        "lounges": [
+            "BKK/VTBS",
+            "IST/LFTM",
+            "MIA,KMIA"
+        ]
+    },
+    "United Airlines": {
+        "name": "United Airlines",
+        "icao": "UAL",
+        "color": "#0033A0",
+        "fleet": [
+            "Airbus A319-100",
+            "Airbus A320-200",
+            "Airbus A321neo",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737-900",
+            "Boeing B737 Max-8",
+            "Boeing B737 Max-9",
+            "Boeing B757-200",
+            "Boeing B757-300",
+            "Boeing B767-300",
+            "Boeing B767-400",
+            "Boeing B777-200",
+            "Boeing B777-300",
+            "Boeing B787-8",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "KORD",
+            "KDEN",
+            "KIAH",
+            "KSFO",
+            "KIAD",
+            "KEWR",
+            "KLAX",
+            "PGUM"
+        ],
+        "lounges": [
+            "ATL/KATL",
+            "AUS/KAUS",
+            "BOS/KBOS",
+            "CLE/KCLE",
+            "DCA/KDCA",
+            "DEN/KDEN - Concourse A",
+            "DEN/KDEN - Concourse B East",
+            "DEN/KDEN - Concourse B West",
+            "DEN/KDEN - United Club Fly",
+            "DFW/KDFW",
+            "EWR/KEWR - Terminal A",
+            "EWR/KEWR - Terminal C (near C123)",
+            "EWR/KEWR - Terminal C, Upper Level (near gate 74)",
+            "FLL/KFLL",
+            "HNL/PHNL",
+            "IAD/KIAD - Concourse C (near C17)",
+            "IAD/KIAD - Concourse C (near C4)",
+            "IAD/KIAD - Concourse C (near C7)",
+            "IAD/KIAD - Concourse C (near D8)",
+            "IAH/KIAH - Terminal A",
+            "IAH/KIAH - Terminal B",
+            "IAH/KIAH - Terminal C South Concourse",
+            "IAH/KIAH - Terminal C",
+            "IAH/KIAH - Terminal E",
+            "LAS/KLAS",
+            "LAX/KLAX",
+            "MCO/KMCO",
+            "MSP/KMSP",
+            "MSY/KMSY",
+            "ORD/KORD - Terminal 1, Concourse B (near B18)",
+            "ORD/KORD - Terminal 1, Concourse B (near B6)",
+            "ORD/KORD - Terminal 1, Concourse C",
+            "ORD/KORD - Terminal 2",
+            "PDX/KPDX",
+            "PHX/KPHX",
+            "RDU/KRDU",
+            "SAN/KSAN",
+            "SAT/KSAT",
+            "SEA/KSEA",
+            "SFO/KSFO - International Terminal",
+            "SFO/KSFO - Terminal 3, Concourse E",
+            "SFO/KSFO - Terminal 3, Concourse F",
+            "SNA/KSNA"
+        ]
+    },
+    "Vietnam Airlines": {
+        "name": "Vietnam Airlines",
+        "icao": "HVN",
+        "color": "#046C84",
+        "fleet": [
+            "Airbus A320neo",
+            "Airbus A321neo",
+            "Airbus A321-200",
+            "Airbus A350-900",
+            "Boeing B787-9",
+            "Boeing B787-10"
+        ],
+        "hubs": [
+            "VVNB",
+            "VVTS"
+        ],
+        "lounges": [
+            "DAD/VVDN - Domestic Lotus Lounge",
+            "DAD/VVDN - International Lotus Lounge",
+            "HAN/VVNB - Domestic Lotus Lounge",
+            "HAN/VVNB - International Lotus Lounge",
+            "SGN/VVTS - Domestic Lotus Lounge",
+            "SGN/VVTS - International Lotus Lounge"
+        ]
+    },
+    "Virgin Atlantic": {
+        "name": "Virgin Atlantic",
+        "icao": "VIR",
+        "color": "#3c1450",
+        "fleet": [
+            "Airbus A330-300",
+            "Airbus A330-900",
+            "Airbus A350-1000",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "EGLL",
+            "EGCC"
+        ],
+        "lounges": [
+            "IAD/KIAD",
+            "JFK/KJFK",
+            "JNB/FAOR",
+            "LHR/EGLL",
+            "SFO/KSFO"
+        ]
+    },
+    "WestJet": {
+        "name": "WestJet",
+        "icao": "WJA",
+        "color": "#04ACA4",
+        "fleet": [
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "CYYC",
+            "CYYZ"
+        ],
+        "lounges": []
+    },
+    "XiamenAir": {
+        "name": "XiamenAir",
+        "icao": "CXA",
+        "color": "#048CC4",
+        "fleet": [
+            "Airbus A321neo",
+            "Boeing B737-700",
+            "Boeing B737-800",
+            "Boeing B737 Max-8",
+            "Boeing B787-8",
+            "Boeing B787-9"
+        ],
+        "hubs": [
+            "ZSFZ",
+            "ZSAM"
+        ],
+        "lounges": [
+            "FOC/ZSFZ - XiamenAir Lounge",
+            "HGH/ZSHC - XiamenAir Lounge",
+            "PKX/ZBAD - XiamenAir Lounge",
+            "XMN/ZSAM - XiamenAir Business Class",
+            "XMN/ZSAM - XiamenAir First"
+        ]
+    }
+}

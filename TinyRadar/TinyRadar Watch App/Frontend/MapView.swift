@@ -20,11 +20,11 @@ struct MapView: View {
     @State private var longitude: Double = 0
     @State private var liveTimer: Timer? = nil
     @State private var cameraPosition: MapCameraPosition = .automatic
-    @State private var zoom = 200.0
+    @State private var zoom: Double = 12500.0
     @State private var debounceTask: Task<Void, Never>?
 
-    private let metersPerNauticalMile = 1852.0
-    private let maxRadiusNM = 250.0
+    private let metersPerNauticalMile: Double = 1852.0
+    private let maxRadiusNM: Double = 250.0
 
     private var radiusNM: Double {
         min(zoom / metersPerNauticalMile, maxRadiusNM)
@@ -40,16 +40,35 @@ struct MapView: View {
             ForEach(aircraftList.filter( {
                 $0.latitude != nil && $0.longitude != nil
             } )) { aircraft in
+                
+                let airlineICAO: String = aircraft.flight?.trimmingCharacters(in: .whitespaces) ?? "UNIDENT"
+                
+                let airlineColor = Color(
+                    hex: AirlineColors.shared.airlineColor[
+                        String(airlineICAO.prefix(3))
+                    ] ?? "#202020"
+                )
+                
                 Annotation(
-                    aircraft.flight?.trimmingCharacters(in: .whitespaces) ?? "UNIDENT",
+                    airlineICAO,
                     coordinate: CLLocationCoordinate2D(
                         latitude: aircraft.latitude!,
                         longitude: aircraft.longitude!
                     )
                 ) {
-                    Image(systemName: "airplane")
-                        .font(.system(size: 12))
-                        .rotationEffect(.degrees((aircraft.trueHeading ?? aircraft.track ?? 0) - 90))
+                    ZStack {
+                        Circle()
+                            .fill(airlineColor)
+                            .frame(width: 20, height: 20)
+                        
+                        Image(systemName: "airplane")
+                            .font(.system(size: 12, weight: .bold))
+                            .foregroundStyle(.white)
+                            .rotationEffect(.degrees((aircraft.trueHeading ?? aircraft.track ?? 0) - 90))
+                        
+//                        manufacturerLogo(for: aircraft.desc)
+//                            .offset(x: 12, y: 12)
+                    }
                 }
             }
         }
@@ -58,7 +77,7 @@ struct MapView: View {
         .focused($mapFocused)
         .digitalCrownRotation(
             $zoom,
-            from: 250,
+            from: 12500,
             through: 250000,
             by: 12500,
             isContinuous: false
@@ -82,6 +101,21 @@ struct MapView: View {
         }
     }
     
+    @ViewBuilder
+    private func manufacturerLogo(for description: String?) -> some View {
+        if let description {
+            switch description {
+            case _ where description.contains("EMBRAER"):
+                Image("EmbraerLogo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 9, height: 9)
+            default:
+                EmptyView()
+            }
+        }
+    }
+    
     @MainActor
     private func updateFlights() async {
         do {
@@ -90,16 +124,6 @@ struct MapView: View {
                 long: longitude,
                 radius: radiusNM
             )
-            
-//            print("Aircraft count:", aircraftList.count)
-//            
-//            for aircraft in aircraftList {
-//                print(
-//                    aircraft.flight ?? "NO FLIGHT",
-//                    aircraft.latitude ?? 0,
-//                    aircraft.longitude ?? 0
-//                )
-//            }
         }
         catch {
             print("Error updating flights: \(error.localizedDescription)")
