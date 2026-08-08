@@ -10,7 +10,7 @@ import Foundation
 struct AirlineColors {
     
     static let shared = AirlineColors()
-    
+    // #B13337 Coulson
     public let airlineColor: [String : String] = [
         "ANA": "#0B318F",
         "AEE": "#94AACB",
@@ -94,6 +94,9 @@ struct AirlineColors {
         "HVN": "#046C84",
         "VIR": "#3c1450",
         "WJA": "#04ACA4",
-        "CXA": "#048CC4"
+        "CXA": "#048CC4",
+        "TKR": "#B13337",
+        "CUL": "#B13337",
+        "CFS": "#87263D"
     ]
 }
