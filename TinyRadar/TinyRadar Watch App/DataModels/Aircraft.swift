@@ -26,6 +26,7 @@ struct Aircraft: Codable, Identifiable {
     let track: Double?
     let trueHeading: Double?
     let baroRate: Int?
+    let geomRate: Double?
 
     let squawk: String?
     let emergency: String?
@@ -83,6 +84,7 @@ struct Aircraft: Codable, Identifiable {
         case track
         case trueHeading = "true_heading"
         case baroRate = "baro_rate"
+        case geomRate = "geom_rate"
 
         case squawk
         case emergency

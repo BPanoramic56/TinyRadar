@@ -41,9 +41,16 @@ struct MapView: View {
     }
     
     let columns = [
-        GridItem(.flexible(minimum: 10, maximum: 50)),
-        GridItem(.flexible(minimum: 10, maximum: 50)),
+        GridItem(.fixed(75)),
+        GridItem(.fixed(75))
     ]
+        
+//    @State private var selectedMapStyleIndex: Int = 0
+//    let mapStyles: [MapStyle] = [
+//        .standard,
+//        .imagery(elevation: .realistic),
+//        .standard(elevation: .flat, emphasis: .muted, pointsOfInterest: .excludingAll, showsTraffic: false)
+//    ]
     
     var body: some View {
         MapReader { mapProxy in
@@ -54,6 +61,8 @@ struct MapView: View {
                         if locationViewModel.userLocation != nil {
                             UserAnnotation(anchor: .center)
                         }
+                        
+//                        AircraftDisplay(aircraftList: $aircraftList)
                         
                         ForEach(aircraftList.filter( {
                             $0.latitude != nil && $0.longitude != nil
@@ -92,6 +101,7 @@ struct MapView: View {
                             }
                         }
                     }
+                    .mapStyle(.standard)
                     .mapControlVisibility(.hidden)
                     .focusable(true)
                     .focused($mapFocused)
@@ -124,19 +134,24 @@ struct MapView: View {
                             aircraftDetailsSheet(aircraft: aircraft)
                         }
                         else if let selection = selectedAircraft {
-//                            let airlineICAO: String = selection.flight?.trimmingCharacters(in: .whitespaces) ?? "N/A"
+                            //                            let airlineICAO: String = selection.flight?.trimmingCharacters(in: .whitespaces) ?? "N/A"
                             
-//                            let airlineColor = Color(
-//                                hex: AirlineColors.shared.airlineColor[
-//                                    String(airlineICAO.prefix(3))
-//                                ] ?? "#202020"
-//                            )
-//                            connectingPath(proxy: mapProxy, geometry: geometry, airlineColor: airlineColor)
+                            //                            let airlineColor = Color(
+                            //                                hex: AirlineColors.shared.airlineColor[
+                            //                                    String(airlineICAO.prefix(3))
+                            //                                ] ?? "#202020"
+                            //                            )
+                            //                            connectingPath(proxy: mapProxy, geometry: geometry, airlineColor: airlineColor)
                             
                             detailsAvailableTab(selection: selection)
                         }
                     }
                 }
+                //                .onLongPressGesture {
+                //                    WKInterfaceDevice.current().play(.click)
+                //                    selectedMapStyleIndex = (selectedMapStyleIndex + 1) % mapStyles.count
+                //                }
+                //                .grayscale(selectedMapStyleIndex == 1 ? 1.0 : 0.0)
             }
         }
     }
@@ -225,6 +240,7 @@ struct MapView: View {
                 withAnimation(.easeInOut(duration: 0.25)) {
                     showAircraftDetails.toggle()
                     selectedAircraftID = nil
+                    initialCase = 0 // Resets the horizontal scroll
                 }
             }
         }
@@ -247,38 +263,63 @@ struct MapView: View {
         let dataCases: [AircraftDataEnum] = AircraftDataEnum.allCases
         let maxCase: Int = dataCases.count
         
-        ZStack {
-            RoundedRectangle(cornerRadius: 8)
-                .background(.ultraThinMaterial)
-            
-            LazyVGrid(columns: columns) {
-                ForEach(dataCases[initialCase...min(initialCase + caseStep - 1, maxCase - 1)], id: \.self) { detail in
-                    VStack {
-                        Text(detail.title)
-//                        Text(detail.value(from: aircraft))
+        LazyVGrid(columns: columns, alignment: .leading, spacing: 8) {
+            ForEach(dataCases[initialCase...min(initialCase + caseStep - 1, maxCase - 1)], id: \.self) { detail in
+                VStack(alignment: .leading){
+                    Text(detail.title)
+                        .font(.system(size: 8))
+                        .foregroundStyle(.secondary)
+                    HStack {
+                        if let imageName = detail.image(from: aircraft) {
+                            Image(imageName)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(maxWidth: 25, maxHeight: 25)
+                        }
+                        Text(detail.value(from: aircraft))
+                            .font(.system(size: 10, weight: .bold))
+                            .multilineTextAlignment(.leading)
                     }
-                    .frame(maxHeight: 60)
-                    .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
-                        .onEnded({ value in
-                            if value.translation.width < 0 { // Right swipe
-                                if initialCase + caseStep >= maxCase {
-                                    initialCase = 0
-                                }
-                                else {
-                                    initialCase += caseStep
-                                }
-                            }
-                            else { // Left Swipe
-                                if initialCase - caseStep < 0 {
-                                    initialCase = max(0, maxCase) - caseStep
-                                }
-                                else {
-                                    initialCase -= caseStep
-                                }
-                            }
-                        }))
                 }
+                .frame(maxWidth: .infinity)
+                .frame(height: 50, alignment: .leading)
+                .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
+                    .onEnded({ value in
+                        if value.translation.width < 0 { // Right swipe
+                            if initialCase + caseStep >= maxCase {
+                                initialCase = 0
+                            }
+                            else {
+                                initialCase += caseStep
+                            }
+                        }
+                        else { // Left Swipe
+                            if initialCase - caseStep < 0 {
+                                initialCase = max(0, maxCase) - caseStep
+                            }
+                            else {
+                                initialCase -= caseStep
+                            }
+                        }
+                    }))
             }
+        }
+        .padding(.horizontal)
+        .background(.ultraThinMaterial.opacity(0.75))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+    }
+    
+    @MainActor
+    private func updateFlights() async {
+        do {
+            aircraftList = try await connection.performCall(
+                lat: latitude,
+                long: longitude,
+                radius: radiusNM
+            )
+        }
+        catch {
+            print("Error updating flights: \(error.localizedDescription)")
         }
     }
     
@@ -335,20 +376,20 @@ struct MapView: View {
             }
         }
     }
-    
-    @MainActor
-    private func updateFlights() async {
-        do {
-            aircraftList = try await connection.performCall(
-                lat: latitude,
-                long: longitude,
-                radius: radiusNM
-            )
-        }
-        catch {
-            print("Error updating flights: \(error.localizedDescription)")
-        }
-    }
+//    
+//    @MainActor
+//    private func updateFlights() async {
+//        do {
+//            aircraftList = try await connection.performCall(
+//                lat: latitude,
+//                long: longitude,
+//                radius: radiusNM
+//            )
+//        }
+//        catch {
+//            print("Error updating flights: \(error.localizedDescription)")
+//        }
+//    }
     
     private func setInitialCamera() {
         guard let location = locationViewModel.userLocation else {
