@@ -61,9 +61,7 @@ struct MapView: View {
                         if locationViewModel.userLocation != nil {
                             UserAnnotation(anchor: .center)
                         }
-                        
-//                        AircraftDisplay(aircraftList: $aircraftList)
-                        
+                                                
                         ForEach(aircraftList.filter( {
                             $0.latitude != nil && $0.longitude != nil
                         } )) { aircraft in
@@ -285,20 +283,22 @@ struct MapView: View {
                 .frame(height: 50, alignment: .leading)
                 .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
                     .onEnded({ value in
-                        if value.translation.width < 0 { // Right swipe
-                            if initialCase + caseStep >= maxCase {
-                                initialCase = 0
+                        withAnimation(.linear(duration: 0.2)) {
+                            if value.translation.width < 0 { // Right swipe
+                                if initialCase + caseStep >= maxCase {
+                                    initialCase = 0
+                                }
+                                else {
+                                    initialCase += caseStep
+                                }
                             }
-                            else {
-                                initialCase += caseStep
-                            }
-                        }
-                        else { // Left Swipe
-                            if initialCase - caseStep < 0 {
-                                initialCase = max(0, maxCase) - caseStep
-                            }
-                            else {
-                                initialCase -= caseStep
+                            else { // Left Swipe
+                                if initialCase - caseStep < 0 {
+                                    initialCase = max(0, maxCase) - caseStep
+                                }
+                                else {
+                                    initialCase -= caseStep
+                                }
                             }
                         }
                     }))

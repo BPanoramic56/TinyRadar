@@ -24,7 +24,9 @@ struct MainView: View {
             }
         }
         .onLongPressGesture {
-            radarStyle.toggle()
+            withAnimation(.easeInOut(duration: 0.5)){
+                radarStyle.toggle()
+            }
         }
     }
 }
