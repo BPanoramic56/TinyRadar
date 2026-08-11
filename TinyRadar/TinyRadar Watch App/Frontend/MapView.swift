@@ -23,6 +23,8 @@ struct MapView: View {
     @State private var zoom: Double = 12500.0
     @State private var debounceTask: Task<Void, Never>?
     
+    @State var initialCase: Int = 0
+    
     @State private var selectedAircraftID: Aircraft.ID? = nil
     var selectedAircraft: Aircraft? {
         aircraftList.first {
@@ -37,6 +39,11 @@ struct MapView: View {
     private var radiusNM: Double {
         min(zoom / metersPerNauticalMile, maxRadiusNM)
     }
+    
+    let columns = [
+        GridItem(.flexible(minimum: 10, maximum: 50)),
+        GridItem(.flexible(minimum: 10, maximum: 50)),
+    ]
     
     var body: some View {
         MapReader { mapProxy in
@@ -117,14 +124,15 @@ struct MapView: View {
                             aircraftDetailsSheet(aircraft: aircraft)
                         }
                         else if let selection = selectedAircraft {
-                            let airlineICAO: String = selection.flight?.trimmingCharacters(in: .whitespaces) ?? "N/A"
+//                            let airlineICAO: String = selection.flight?.trimmingCharacters(in: .whitespaces) ?? "N/A"
                             
-                            let airlineColor = Color(
-                                hex: AirlineColors.shared.airlineColor[
-                                    String(airlineICAO.prefix(3))
-                                ] ?? "#202020"
-                            )
+//                            let airlineColor = Color(
+//                                hex: AirlineColors.shared.airlineColor[
+//                                    String(airlineICAO.prefix(3))
+//                                ] ?? "#202020"
+//                            )
 //                            connectingPath(proxy: mapProxy, geometry: geometry, airlineColor: airlineColor)
+                            
                             detailsAvailableTab(selection: selection)
                         }
                     }
@@ -181,6 +189,9 @@ struct MapView: View {
         )
         
         VStack {
+            
+            detailCard(aircraft: aircraft)
+            
             Divider()
             
             HStack {
@@ -228,6 +239,47 @@ struct MapView: View {
                 .shadow(color: airlineColor.opacity(0.75), radius: 12)
         }
         .padding(.horizontal, 8)
+    }
+    
+    @ViewBuilder
+    private func detailCard(aircraft: Aircraft) -> some View {
+        let caseStep: Int = 4
+        let dataCases: [AircraftDataEnum] = AircraftDataEnum.allCases
+        let maxCase: Int = dataCases.count
+        
+        ZStack {
+            RoundedRectangle(cornerRadius: 8)
+                .background(.ultraThinMaterial)
+            
+            LazyVGrid(columns: columns) {
+                ForEach(dataCases[initialCase...min(initialCase + caseStep - 1, maxCase - 1)], id: \.self) { detail in
+                    VStack {
+                        Text(detail.title)
+//                        Text(detail.value(from: aircraft))
+                    }
+                    .frame(maxHeight: 60)
+                    .gesture(DragGesture(minimumDistance: 0, coordinateSpace: .local)
+                        .onEnded({ value in
+                            if value.translation.width < 0 { // Right swipe
+                                if initialCase + caseStep >= maxCase {
+                                    initialCase = 0
+                                }
+                                else {
+                                    initialCase += caseStep
+                                }
+                            }
+                            else { // Left Swipe
+                                if initialCase - caseStep < 0 {
+                                    initialCase = max(0, maxCase) - caseStep
+                                }
+                                else {
+                                    initialCase -= caseStep
+                                }
+                            }
+                        }))
+                }
+            }
+        }
     }
     
     @ViewBuilder
