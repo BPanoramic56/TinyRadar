@@ -62,6 +62,7 @@ struct MapView: View {
                             UserAnnotation(anchor: .center)
                         }
                                                 
+                        // Filters to only planes with a defined (lat, lon)
                         ForEach(aircraftList.filter( {
                             $0.latitude != nil && $0.longitude != nil
                         } )) { aircraft in
@@ -119,8 +120,8 @@ struct MapView: View {
                     })
                     .onAppear() {
                         let timer = Timer(timeInterval: 30, repeats: true) { _ in
-                            Task {
-                                await updateFlights()
+                            Task { @MainActor in
+                                aircraftList = await connection.updateFlights(lat: latitude, lon: longitude, radius: radiusNM)
                             }
                         }
                         RunLoop.current.add(timer, forMode: .common)
@@ -307,20 +308,6 @@ struct MapView: View {
         .padding(.horizontal)
         .background(.ultraThinMaterial.opacity(0.75))
         .clipShape(RoundedRectangle(cornerRadius: 12))
-    }
-    
-    @MainActor
-    private func updateFlights() async {
-        do {
-            aircraftList = try await connection.performCall(
-                lat: latitude,
-                long: longitude,
-                radius: radiusNM
-            )
-        }
-        catch {
-            print("Error updating flights: \(error.localizedDescription)")
-        }
     }
     
     @ViewBuilder

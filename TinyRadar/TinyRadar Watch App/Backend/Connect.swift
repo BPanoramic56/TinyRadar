@@ -14,13 +14,28 @@
 import Foundation
 
 struct Connect {
-    func performCall(lat: Double, long: Double, radius: Double) async throws -> [Aircraft] {
+    private func performCall(lat: Double, long: Double, radius: Double) async throws -> [Aircraft] {
         
         let url = URL(string: "https://api.airplanes.live/v2/point/\(lat)/\(long)/\(radius)")!
-        
+        print(url)
         let (data, _) = try await URLSession.shared.data(from: url)
         let flights = try JSONDecoder().decode(AircraftResponse.self, from: data)
         
         return flights.ac
+    }
+    
+    public func updateFlights(lat: Double, lon: Double, radius: Double) async -> [Aircraft] {
+        print("Updating Flights")
+        do {
+            return try await performCall(
+                lat: lat,
+                long: lon,
+                radius: radius
+            )
+        }
+        catch {
+            print("Error updating flights: \(error.localizedDescription)")
+            return []
+        }
     }
 }
